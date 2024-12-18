@@ -12,3 +12,4 @@ Currently, two official plugins are available:
 # Portfolio
 # Vinay_portfolio
 # Vinay_portfolio
+# Vinay_portfolio
