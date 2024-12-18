@@ -1,0 +1,37 @@
+/* General Styling */
+body {
+  margin: 0;
+    height: 100vh; /* Full viewport height */
+    background: 
+                linear-gradient(180deg, 
+                #0B0D1C 0%, 
+                #1B1F48 25%, 
+                #5B4CE7 50%, 
+                #443A98 75%, 
+                #3A3F7A 100%);
+    background-color: #0B0D1C; /* Fallback for older browsers */
+    color: #ffffff; /* Optional text color for contrast */
+    font-family: Arial, sans-serif; 
+}
+
+/* Color Grading Container */
+.color-grading-container {
+  text-align: center;
+  padding: 60px 20px;
+  
+}
+
+/* Color Grading Header */
+.color-grading-header h1 {
+  font-size: 2rem;
+  color: #e63946; /* Vibrant red for the title */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.color-grading-subtitle {
+  font-size: 1.5rem;
+  color: rgb(158, 158, 158);
+  margin-top: 10px;
+}

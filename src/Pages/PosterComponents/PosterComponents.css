@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+    height: 100vh; /* Full viewport height */
+    background: 
+                linear-gradient(180deg, 
+                #0B0D1C 0%, 
+                #1B1F48 25%, 
+                #5B4CE7 50%, 
+                #443A98 75%, 
+                #3A3F7A 100%);
+    background-color: #0B0D1C; /* Fallback for older browsers */
+    color: #ffffff; /* Optional text color for contrast */
+    font-family: Arial, sans-serif; 
+}
+.poster-container {
+  text-align: center;
+  padding-top: 100px; /* Offset for the fixed header */
+}
+
+.poster-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.poster-content .description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.insta {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgb(237, 71, 226);
+  color: white;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.insta:hover {
+  background-color: rgb(200, 50, 200);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .poster-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .insta {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .poster-content h1 {
+    font-size: 2rem;
+  }
+
+  .insta {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}

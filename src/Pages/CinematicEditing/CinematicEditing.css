@@ -1,0 +1,36 @@
+/* General Styling */
+body {
+  margin: 0;
+    height: 100vh; /* Full viewport height */
+    background: 
+                linear-gradient(180deg, 
+                #0B0D1C 0%, 
+                #1B1F48 25%, 
+                #5B4CE7 50%, 
+                #443A98 75%, 
+                #3A3F7A 100%);
+    background-color: #0B0D1C; /* Fallback for older browsers */
+    color: #ffffff; /* Optional text color for contrast */
+    font-family: Arial, sans-serif; 
+}
+
+/* Cinematic Container */
+.cinematic-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Cinematic Header */
+.cinematic-header h1 {
+  font-size: 2rem;
+  color: #ff6f61;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cinematic-subtitle {
+  font-size: 1.5rem;
+  color: rgb(158, 158, 158);
+  margin-top: 10px;
+}
