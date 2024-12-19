@@ -10,7 +10,7 @@ body {
                 #5B4CE7 50%, 
                 #443A98 75%, 
                 #3A3F7A 100%);
-    background-color: #0B0D1C; /* Fallback for older browsers */
+    background-color:#3A3F7A ; /* Fallback for older browsers */
     color: #ffffff; /* Optional text color for contrast */
     font-family: Arial, sans-serif; 
 }
